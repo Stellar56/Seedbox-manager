@@ -129,3 +129,5 @@ class Users
         return isset($all_links) ? $all_links : null;
     }
 }
+
+?>

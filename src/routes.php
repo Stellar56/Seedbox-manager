@@ -19,3 +19,5 @@ $app->group('/', function () {
 })->add(new checkInstall($container->get('router')));
 
 $app->get('/install', '\App\Controller\InstallController:index')->setName('install');
+
+?>

@@ -91,3 +91,5 @@ class Utils
         return $languages;
     }
 }
+
+?>

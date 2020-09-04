@@ -68,3 +68,5 @@ $container['\App\Controller\InstallController'] = function ($container) {
 $container['\App\Controller\DownloadController'] = function () {
     return new \App\Controller\DownloadController();
 };
+
+?>
